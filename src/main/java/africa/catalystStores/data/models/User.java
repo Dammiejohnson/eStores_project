@@ -10,9 +10,9 @@ public class User {
     private String lastName;
     private String phoneNumber;
     @NonNull
-    private String password;
-    @NonNull
     private String emailAddress;
+    @NonNull
+    private String password;
     private String homeAddress;
 
 

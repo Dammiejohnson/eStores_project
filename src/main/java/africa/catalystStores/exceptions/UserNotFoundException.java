@@ -1,0 +1,7 @@
+package africa.catalystStores.exceptions;
+
+public class UserNotFoundException extends RuntimeException {
+    public UserNotFoundException(String message) {
+        super(message);
+    }
+}
